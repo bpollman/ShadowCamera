@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="RFO-ev-KET">
+    <dependencies>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="hg6-AL-8dA">
+            <objects>
+                <windowController showSeguePresentationStyle="single" id="RFO-ev-KET" customClass="WindowController" customModule="darkener" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="8Ln-ii-aLW" customClass="TransparentWindow" customModule="darkener" customModuleProvider="target">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="2345" y="331" width="480" height="270"/>
+                        <rect key="screenRect" x="1920" y="-130" width="2560" height="1417"/>
+                    </window>
+                    <connections>
+                        <segue destination="xHi-ZV-iKD" kind="relationship" relationship="window.shadowedContentViewController" id="sk2-Fy-iRD"/>
+                    </connections>
+                </windowController>
+                <customObject id="G8y-DT-kN3" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="d5D-BE-2iS" customClass="AppDelegate" customModule="darkener" customModuleProvider="target"/>
+                <menu title="Main Menu" systemMenu="main" id="JJb-e1-AXa">
+                    <items>
+                        <menuItem title="ShadowCamera" id="IMD-0Q-bli">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="ShadowCamera" systemMenu="apple" id="xyF-v2-g1F">
+                                <items>
+                                    <menuItem title="About ShadowCamera" id="pKi-uY-ZPy">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                    <menuItem isSeparatorItem="YES" id="Tg0-R7-0yS"/>
+                                    <menuItem title="Preferences…" keyEquivalent="," id="iTq-0d-vEr"/>
+                                    <menuItem isSeparatorItem="YES" id="Xno-2f-Cln"/>
+                                    <menuItem title="Services" id="0ZA-sa-Ifx">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <menu key="submenu" title="Services" systemMenu="services" id="clV-Du-Bjl"/>
+                                    </menuItem>
+                                    <menuItem isSeparatorItem="YES" id="eGp-Kl-xq6"/>
+                                    <menuItem title="Hide ShadowCamera" keyEquivalent="h" id="tej-gO-UNV"/>
+                                    <menuItem title="Hide Others" keyEquivalent="h" id="Bb8-eO-zjZ">
+                                        <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                    </menuItem>
+                                    <menuItem title="Show All" id="33j-wO-O8f">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                    <menuItem isSeparatorItem="YES" id="Rx4-Wn-go6"/>
+                                    <menuItem title="Quit ShadowCamera" keyEquivalent="q" id="i7w-zv-tNQ"/>
+                                </items>
+                            </menu>
+                        </menuItem>
+                        <menuItem title="View" id="LSw-FE-fBJ">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="View" id="MyW-YS-5gY">
+                                <items>
+                                    <menuItem title="Show Toolbar" keyEquivalent="t" id="Zse-0H-XeE">
+                                        <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                    </menuItem>
+                                    <menuItem title="Customize Toolbar…" id="5um-yx-CSc">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                </items>
+                            </menu>
+                        </menuItem>
+                        <menuItem title="Window" id="yV0-Hc-q8a">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Window" systemMenu="window" id="UKd-NQ-DvE">
+                                <items>
+                                    <menuItem title="Minimize" keyEquivalent="m" id="LQk-B2-ecC"/>
+                                    <menuItem title="Zoom" id="Sje-XD-bj7">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                    <menuItem isSeparatorItem="YES" id="Czx-y1-i5l"/>
+                                    <menuItem title="Bring All to Front" id="uP7-L5-xVq">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                </items>
+                            </menu>
+                        </menuItem>
+                        <menuItem title="Help" id="rH6-0r-kOg">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Help" systemMenu="help" id="93s-jm-ICh">
+                                <items>
+                                    <menuItem title="ShadowCamera Help" keyEquivalent="?" id="ZQa-8D-ou7"/>
+                                </items>
+                            </menu>
+                        </menuItem>
+                    </items>
+                </menu>
+                <customObject id="g5E-Pn-mY9" customClass="NSFontManager"/>
+            </objects>
+            <point key="canvasLocation" x="-241" y="379"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yeB-Mx-Kxx">
+            <objects>
+                <viewController showSeguePresentationStyle="single" id="xHi-ZV-iKD" customClass="ViewController" customModule="darkener" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="DQv-ku-DJV">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1wC-ha-5gi">
+                                <rect key="frame" x="91" y="140" width="48" height="48"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="brG-U4-N1p"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="1wC-ha-5gi" firstAttribute="top" secondItem="DQv-ku-DJV" secondAttribute="top" constant="20" id="0RW-m0-loV"/>
+                            <constraint firstAttribute="bottom" secondItem="1wC-ha-5gi" secondAttribute="bottom" constant="20" id="OMD-iL-FPM"/>
+                            <constraint firstItem="1wC-ha-5gi" firstAttribute="leading" secondItem="DQv-ku-DJV" secondAttribute="leading" constant="20" id="Vcw-c8-K3v"/>
+                            <constraint firstAttribute="trailing" secondItem="1wC-ha-5gi" secondAttribute="trailing" constant="366" id="zaT-jv-bBj"/>
+                        </constraints>
+                        <contentFilters>
+                            <ciFilter name="CIDotScreen">
+                                <configuration>
+                                    <real key="inputAngle" value="0.0"/>
+                                    <ciVector key="inputCenter">
+                                        <real value="150"/>
+                                        <real value="150"/>
+                                    </ciVector>
+                                    <null key="inputImage"/>
+                                    <real key="inputSharpness" value="0.69999999999999996"/>
+                                    <real key="inputWidth" value="10"/>
+                                </configuration>
+                            </ciFilter>
+                        </contentFilters>
+                    </view>
+                    <connections>
+                        <outlet property="ImageView" destination="1wC-ha-5gi" id="QiH-dN-D4h"/>
+                    </connections>
+                </viewController>
+                <customObject id="cST-4J-qie" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371" y="366"/>
+        </scene>
+    </scenes>
+</document>

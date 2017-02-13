@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D9FAB711D7D443700914D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FAB701D7D443700914D72 /* AppDelegate.swift */; };
+		9D9FAB731D7D443700914D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9FAB721D7D443700914D72 /* Assets.xcassets */; };
+		9D9FAB761D7D443700914D72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9FAB741D7D443700914D72 /* MainMenu.xib */; };
+		9D9FAB811D7D443800914D72 /* ShadowCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FAB801D7D443800914D72 /* ShadowCameraTests.swift */; };
+		9D9FAB8C1D7D443800914D72 /* ShadowCameraTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FAB8B1D7D443800914D72 /* ShadowCameraTestsUITests.swift */; };
+		9D9FAB9A1D7D463D00914D72 /* window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FAB991D7D463D00914D72 /* window.swift */; };
+		9D9FAB9C1D7D51A300914D72 /* viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FAB9B1D7D51A300914D72 /* viewcontroller.swift */; };
+		9D9FAB9E1D7E37B700914D72 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9FAB9D1D7E37B700914D72 /* main.storyboard */; };
+		9D9FABA01D7E48DA00914D72 /* windowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FAB9F1D7E48DA00914D72 /* windowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D9FAB7D1D7D443800914D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D9FAB651D7D443700914D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9FAB6C1D7D443700914D72;
+			remoteInfo = darkener;
+		};
+		9D9FAB881D7D443800914D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D9FAB651D7D443700914D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9FAB6C1D7D443700914D72;
+			remoteInfo = darkener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D9FAB6D1D7D443700914D72 /* ShadowCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9FAB701D7D443700914D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D9FAB721D7D443700914D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D9FAB751D7D443700914D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9D9FAB771D7D443700914D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9FAB7C1D7D443800914D72 /* ShadowCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9FAB801D7D443800914D72 /* ShadowCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowCameraTests.swift; sourceTree = "<group>"; };
+		9D9FAB821D7D443800914D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9FAB871D7D443800914D72 /* ShadowCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9FAB8B1D7D443800914D72 /* ShadowCameraTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowCameraTestsUITests.swift; sourceTree = "<group>"; };
+		9D9FAB8D1D7D443800914D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9FAB991D7D463D00914D72 /* window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = window.swift; sourceTree = "<group>"; };
+		9D9FAB9B1D7D51A300914D72 /* viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewcontroller.swift; sourceTree = "<group>"; };
+		9D9FAB9D1D7E37B700914D72 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		9D9FAB9F1D7E48DA00914D72 /* windowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = windowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D9FAB6A1D7D443700914D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9FAB791D7D443800914D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9FAB841D7D443800914D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D9FAB641D7D443700914D72 = {
+			isa = PBXGroup;
+			children = (
+				9D9FAB6F1D7D443700914D72 /* ShadowCamera */,
+				9D9FAB7F1D7D443800914D72 /* ShadowCameraTests */,
+				9D9FAB8A1D7D443800914D72 /* ShadowCameraUITests */,
+				9D9FAB6E1D7D443700914D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9FAB6E1D7D443700914D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D9FAB6D1D7D443700914D72 /* ShadowCamera.app */,
+				9D9FAB7C1D7D443800914D72 /* ShadowCameraTests.xctest */,
+				9D9FAB871D7D443800914D72 /* ShadowCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D9FAB6F1D7D443700914D72 /* ShadowCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9D9FAB701D7D443700914D72 /* AppDelegate.swift */,
+				9D9FAB721D7D443700914D72 /* Assets.xcassets */,
+				9D9FAB741D7D443700914D72 /* MainMenu.xib */,
+				9D9FAB771D7D443700914D72 /* Info.plist */,
+				9D9FAB991D7D463D00914D72 /* window.swift */,
+				9D9FAB9B1D7D51A300914D72 /* viewcontroller.swift */,
+				9D9FAB9D1D7E37B700914D72 /* main.storyboard */,
+				9D9FAB9F1D7E48DA00914D72 /* windowController.swift */,
+			);
+			path = ShadowCamera;
+			sourceTree = "<group>";
+		};
+		9D9FAB7F1D7D443800914D72 /* ShadowCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D9FAB801D7D443800914D72 /* ShadowCameraTests.swift */,
+				9D9FAB821D7D443800914D72 /* Info.plist */,
+			);
+			path = ShadowCameraTests;
+			sourceTree = "<group>";
+		};
+		9D9FAB8A1D7D443800914D72 /* ShadowCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D9FAB8B1D7D443800914D72 /* ShadowCameraTestsUITests.swift */,
+				9D9FAB8D1D7D443800914D72 /* Info.plist */,
+			);
+			path = ShadowCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D9FAB6C1D7D443700914D72 /* ShadowCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9FAB901D7D443800914D72 /* Build configuration list for PBXNativeTarget "ShadowCamera" */;
+			buildPhases = (
+				9D9FAB691D7D443700914D72 /* Sources */,
+				9D9FAB6A1D7D443700914D72 /* Frameworks */,
+				9D9FAB6B1D7D443700914D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowCamera;
+			productName = darkener;
+			productReference = 9D9FAB6D1D7D443700914D72 /* ShadowCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D9FAB7B1D7D443800914D72 /* ShadowCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9FAB931D7D443800914D72 /* Build configuration list for PBXNativeTarget "ShadowCameraTests" */;
+			buildPhases = (
+				9D9FAB781D7D443800914D72 /* Sources */,
+				9D9FAB791D7D443800914D72 /* Frameworks */,
+				9D9FAB7A1D7D443800914D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9FAB7E1D7D443800914D72 /* PBXTargetDependency */,
+			);
+			name = ShadowCameraTests;
+			productName = darkenerTests;
+			productReference = 9D9FAB7C1D7D443800914D72 /* ShadowCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D9FAB861D7D443800914D72 /* ShadowCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9FAB961D7D443800914D72 /* Build configuration list for PBXNativeTarget "ShadowCameraUITests" */;
+			buildPhases = (
+				9D9FAB831D7D443800914D72 /* Sources */,
+				9D9FAB841D7D443800914D72 /* Frameworks */,
+				9D9FAB851D7D443800914D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9FAB891D7D443800914D72 /* PBXTargetDependency */,
+			);
+			name = ShadowCameraUITests;
+			productName = darkenerUITests;
+			productReference = 9D9FAB871D7D443800914D72 /* ShadowCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D9FAB651D7D443700914D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bernard Pollman";
+				TargetAttributes = {
+					9D9FAB6C1D7D443700914D72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+					9D9FAB7B1D7D443800914D72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 9D9FAB6C1D7D443700914D72;
+					};
+					9D9FAB861D7D443800914D72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 9D9FAB6C1D7D443700914D72;
+					};
+				};
+			};
+			buildConfigurationList = 9D9FAB681D7D443700914D72 /* Build configuration list for PBXProject "ShadowCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D9FAB641D7D443700914D72;
+			productRefGroup = 9D9FAB6E1D7D443700914D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D9FAB6C1D7D443700914D72 /* ShadowCamera */,
+				9D9FAB7B1D7D443800914D72 /* ShadowCameraTests */,
+				9D9FAB861D7D443800914D72 /* ShadowCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D9FAB6B1D7D443700914D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9FAB731D7D443700914D72 /* Assets.xcassets in Resources */,
+				9D9FAB9E1D7E37B700914D72 /* main.storyboard in Resources */,
+				9D9FAB761D7D443700914D72 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9FAB7A1D7D443800914D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9FAB851D7D443800914D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9FAB691D7D443700914D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9FAB9C1D7D51A300914D72 /* viewcontroller.swift in Sources */,
+				9D9FABA01D7E48DA00914D72 /* windowController.swift in Sources */,
+				9D9FAB711D7D443700914D72 /* AppDelegate.swift in Sources */,
+				9D9FAB9A1D7D463D00914D72 /* window.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9FAB781D7D443800914D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9FAB811D7D443800914D72 /* ShadowCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9FAB831D7D443800914D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9FAB8C1D7D443800914D72 /* ShadowCameraTestsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D9FAB7E1D7D443800914D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D9FAB6C1D7D443700914D72 /* ShadowCamera */;
+			targetProxy = 9D9FAB7D1D7D443800914D72 /* PBXContainerItemProxy */;
+		};
+		9D9FAB891D7D443800914D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D9FAB6C1D7D443700914D72 /* ShadowCamera */;
+			targetProxy = 9D9FAB881D7D443800914D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D9FAB741D7D443700914D72 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9FAB751D7D443700914D72 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D9FAB8E1D7D443800914D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D9FAB8F1D7D443800914D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D9FAB911D7D443800914D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ShadowCamera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pifoundry.shadowcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D9FAB921D7D443800914D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ShadowCamera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pifoundry.shadowcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9D9FAB941D7D443800914D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = darkenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pifoundry.darkenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowCamera.app/Contents/MacOS/ShadowCamera";
+			};
+			name = Debug;
+		};
+		9D9FAB951D7D443800914D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = darkenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pifoundry.darkenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowCamera.app/Contents/MacOS/ShadowCamera";
+			};
+			name = Release;
+		};
+		9D9FAB971D7D443800914D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = darkenerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pifoundry.darkenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = darkener;
+			};
+			name = Debug;
+		};
+		9D9FAB981D7D443800914D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = darkenerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pifoundry.darkenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = darkener;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D9FAB681D7D443700914D72 /* Build configuration list for PBXProject "ShadowCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9FAB8E1D7D443800914D72 /* Debug */,
+				9D9FAB8F1D7D443800914D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9FAB901D7D443800914D72 /* Build configuration list for PBXNativeTarget "ShadowCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9FAB911D7D443800914D72 /* Debug */,
+				9D9FAB921D7D443800914D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9FAB931D7D443800914D72 /* Build configuration list for PBXNativeTarget "ShadowCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9FAB941D7D443800914D72 /* Debug */,
+				9D9FAB951D7D443800914D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9FAB961D7D443800914D72 /* Build configuration list for PBXNativeTarget "ShadowCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9FAB971D7D443800914D72 /* Debug */,
+				9D9FAB981D7D443800914D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D9FAB651D7D443700914D72 /* Project object */;
+}
